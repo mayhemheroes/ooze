@@ -59,9 +59,7 @@ jobs:
       fail-fast: false
       matrix:
         mayhemfile:
-          - mayhem/fuzz_ooze_gotextdiff.mayhemfile
-          - mayhem/fuzz_ooze_prettydiff.mayhemfile
-          - mayhem/fuzz_ooze_options.mayhemfile
+          - mayhem/Mayhemfile
 
     steps:
       - uses: actions/checkout@v3
